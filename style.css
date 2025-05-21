@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: black;
+}
+
+#gameBoard {
+    height: 100vmin;
+    width: 100vmin;
+    margin: 0;
+}
+
+#snake {
+    background-color: black;
+    grid-row-start: 11;
+    grid-column-start: 11;
+    z-index: 2;
+}
